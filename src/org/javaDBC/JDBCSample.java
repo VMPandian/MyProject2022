@@ -10,6 +10,7 @@ public class JDBCSample {
 	public static Connection con;
 	public static void main(String[] args) throws SQLException {
 		try {
+			System.out.println("its new line");
 			//1.load the driver
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			//2.connect with database
